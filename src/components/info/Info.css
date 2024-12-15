@@ -1,0 +1,16 @@
+.info{
+    padding-top: 140px;
+}
+.info__wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 36px;
+}
+.info__text{
+    display: flex;
+    gap: 12px;
+    font-size: 24px;
+}
+.info__text_num{
+    color: #C99E71;
+}

@@ -1,0 +1,38 @@
+.product{
+    padding-top: 140px;
+}
+.product__title{
+    text-align: center;
+    color: #C99E71;
+    font-size: 18px;
+    font-weight: 600;
+}
+.product__subtitle{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 48px;
+}
+.product__wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 36px;
+}
+.product__card{
+    padding: 48px;
+    background-color: #121315;
+}
+.card__title{
+    margin-top: 36px;
+    text-align: center;
+    font-size: 24px;
+}
+.card__price{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    gap: 4px;
+}
+.disc__price{
+    color: #C99E71;
+}

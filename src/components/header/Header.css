@@ -1,0 +1,21 @@
+.header{
+    background-color: #1C1814;
+    color: #fff;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 125px;
+}
+.navbar__collection{
+    display: flex;
+    gap: 48px;
+}
+.navbar__link{
+    font-size: 18px;
+    
+}
+.navbar__link svg{
+    font-size: 20px;
+}
